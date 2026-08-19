@@ -24,12 +24,30 @@
     }
   ],
   "quick-stats": [
-    { "label": "Active Users Right Now", "value": "1,284 online" },
-    { "label": "Requests Today", "value": "847K API calls" },
-    { "label": "Uptime", "value": "99.97% over last 30 days" },
-    { "label": "Avg. Response Time", "value": "142 ms" },
-    { "label": "Open Support Tickets", "value": "7 unresolved" },
-    { "label": "New Sign-ups Today", "value": "63 accounts" }
+    {
+      "label": "Active Users Right Now",
+      "value": "1,284 online"
+    },
+    {
+      "label": "Requests Today",
+      "value": "847K API calls"
+    },
+    {
+      "label": "Uptime",
+      "value": "99.97% over last 30 days"
+    },
+    {
+      "label": "Avg. Response Time",
+      "value": "142 ms"
+    },
+    {
+      "label": "Open Support Tickets",
+      "value": "7 unresolved"
+    },
+    {
+      "label": "New Sign-ups Today",
+      "value": "63 accounts"
+    }
   ],
   "kpi-cards": [
     {
@@ -62,149 +80,499 @@
     }
   ],
   "revenue-chart": [
-    { "month": "Jan", "revenue": 198200 },
-    { "month": "Feb", "revenue": 204750 },
-    { "month": "Mar", "revenue": 211300 },
-    { "month": "Apr", "revenue": 219800 },
-    { "month": "May", "revenue": 228400 },
-    { "month": "Jun", "revenue": 235100 },
-    { "month": "Jul", "revenue": 241600 },
-    { "month": "Aug", "revenue": 248900 },
-    { "month": "Sep", "revenue": 255300 },
-    { "month": "Oct", "revenue": 263700 },
-    { "month": "Nov", "revenue": 274100 },
-    { "month": "Dec", "revenue": 284500 }
-  ],
-  "activity-area-chart": [
-    { "week": "Week 1", "dau": 14820, "note": "Baseline period" },
-    { "week": "Week 2", "dau": 15640, "note": "+5.5% — email campaign launched Nov 8" },
-    { "week": "Week 3", "dau": 17210, "note": "+10.0% — v2.4 feature release Nov 15" },
-    { "week": "Week 4", "dau": 18340, "note": "+6.6% — sustained post-release engagement" }
-  ],
-  "cta": [
     {
-      "label": "Open Analytics",
-      "description": "Explore bar charts, donut breakdowns, and date-filtered trends"
+      "month": "Jan",
+      "revenue": 198200
     },
     {
-      "label": "View Reports",
-      "description": "Sort, filter, and export your full transaction and event log"
+      "month": "Feb",
+      "revenue": 204750
     },
     {
-      "label": "Adjust Settings",
-      "description": "Set your default date range, toggle dark mode, and manage notifications"
+      "month": "Mar",
+      "revenue": 211300
+    },
+    {
+      "month": "Apr",
+      "revenue": 219800
+    },
+    {
+      "month": "May",
+      "revenue": 228400
+    },
+    {
+      "month": "Jun",
+      "revenue": 235100
+    },
+    {
+      "month": "Jul",
+      "revenue": 241600
+    },
+    {
+      "month": "Aug",
+      "revenue": 248900
+    },
+    {
+      "month": "Sep",
+      "revenue": 255300
+    },
+    {
+      "month": "Oct",
+      "revenue": 263700
+    },
+    {
+      "month": "Nov",
+      "revenue": 274100
+    },
+    {
+      "month": "Dec",
+      "revenue": 284500
     }
   ],
+  "activity-area-chart": [
+    {
+      "week": "Week 1",
+      "dau": 14820,
+      "note": "Baseline period"
+    },
+    {
+      "week": "Week 2",
+      "dau": 15640,
+      "note": "+5.5% — email campaign launched Nov 8"
+    },
+    {
+      "week": "Week 3",
+      "dau": 17210,
+      "note": "+10.0% — v2.4 feature release Nov 15"
+    },
+    {
+      "week": "Week 4",
+      "dau": 18340,
+      "note": "+6.6% — sustained post-release engagement"
+    }
+  ],
+  "cta": {
+    "heading": "Ready to transform your analytics?",
+    "primary": "Start Free Trial",
+    "secondary": "Schedule Demo",
+    "subhead": "Join thousands of teams using Retry to make smarter decisions"
+  },
   "analytics-header": [
-    { "label": "Last updated", "value": "just now" },
-    { "label": "Comparing to", "value": "previous period" },
-    { "label": "Scope", "value": "All workspaces included" }
+    {
+      "label": "Last updated",
+      "value": "just now"
+    },
+    {
+      "label": "Comparing to",
+      "value": "previous period"
+    },
+    {
+      "label": "Scope",
+      "value": "All workspaces included"
+    }
   ],
   "date-filter": [
-    { "label": "Last 7 days", "description": "Quick pulse check on recent activity" },
-    { "label": "Last 30 days", "description": "Standard monthly performance window" },
-    { "label": "Last 90 days", "description": "Quarterly trend analysis" },
-    { "label": "Last 12 months", "description": "Full-year longitudinal view" },
-    { "label": "Custom range", "description": "Pick any start and end date with the calendar picker" }
+    {
+      "label": "Last 7 days",
+      "description": "Quick pulse check on recent activity"
+    },
+    {
+      "label": "Last 30 days",
+      "description": "Standard monthly performance window"
+    },
+    {
+      "label": "Last 90 days",
+      "description": "Quarterly trend analysis"
+    },
+    {
+      "label": "Last 12 months",
+      "description": "Full-year longitudinal view"
+    },
+    {
+      "label": "Custom range",
+      "description": "Pick any start and end date with the calendar picker"
+    }
   ],
   "monthly-bar-chart": [
-    { "month": "Jan", "thisYear": 84200, "lastYear": 61500 },
-    { "month": "Feb", "thisYear": 79600, "lastYear": 58900 },
-    { "month": "Mar", "thisYear": 93100, "lastYear": 70200 },
-    { "month": "Apr", "thisYear": 101400, "lastYear": 74800 },
-    { "month": "May", "thisYear": 112700, "lastYear": 80300 },
-    { "month": "Jun", "thisYear": 108900, "lastYear": 83600 },
-    { "month": "Jul", "thisYear": 97300, "lastYear": 76100 },
-    { "month": "Aug", "thisYear": 119500, "lastYear": 88400 },
-    { "month": "Sep", "thisYear": 124800, "lastYear": 91200 },
-    { "month": "Oct", "thisYear": 131600, "lastYear": 96700 },
-    { "month": "Nov", "thisYear": 143200, "lastYear": 104500 },
-    { "month": "Dec", "thisYear": 158900, "lastYear": 112300 }
+    {
+      "month": "Jan",
+      "thisYear": 84200,
+      "lastYear": 61500
+    },
+    {
+      "month": "Feb",
+      "thisYear": 79600,
+      "lastYear": 58900
+    },
+    {
+      "month": "Mar",
+      "thisYear": 93100,
+      "lastYear": 70200
+    },
+    {
+      "month": "Apr",
+      "thisYear": 101400,
+      "lastYear": 74800
+    },
+    {
+      "month": "May",
+      "thisYear": 112700,
+      "lastYear": 80300
+    },
+    {
+      "month": "Jun",
+      "thisYear": 108900,
+      "lastYear": 83600
+    },
+    {
+      "month": "Jul",
+      "thisYear": 97300,
+      "lastYear": 76100
+    },
+    {
+      "month": "Aug",
+      "thisYear": 119500,
+      "lastYear": 88400
+    },
+    {
+      "month": "Sep",
+      "thisYear": 124800,
+      "lastYear": 91200
+    },
+    {
+      "month": "Oct",
+      "thisYear": 131600,
+      "lastYear": 96700
+    },
+    {
+      "month": "Nov",
+      "thisYear": 143200,
+      "lastYear": 104500
+    },
+    {
+      "month": "Dec",
+      "thisYear": 158900,
+      "lastYear": 112300
+    }
   ],
   "category-donut-chart": [
-    { "name": "Pro Subscriptions", "value": 542600, "percentage": 42 },
-    { "name": "Enterprise Licenses", "value": 361700, "percentage": 28 },
-    { "name": "Add-on Modules", "value": 180900, "percentage": 14 },
-    { "name": "Professional Services", "value": 129200, "percentage": 10 },
-    { "name": "Marketplace Integrations", "value": 77500, "percentage": 6 }
+    {
+      "name": "Pro Subscriptions",
+      "value": 542600,
+      "percentage": 42
+    },
+    {
+      "name": "Enterprise Licenses",
+      "value": 361700,
+      "percentage": 28
+    },
+    {
+      "name": "Add-on Modules",
+      "value": 180900,
+      "percentage": 14
+    },
+    {
+      "name": "Professional Services",
+      "value": 129200,
+      "percentage": 10
+    },
+    {
+      "name": "Marketplace Integrations",
+      "value": 77500,
+      "percentage": 6
+    }
   ],
   "traffic-line-chart": [
-    { "week": "Wk 22", "visitors": 29800, "dau": 14200, "sessions": 3.1 },
-    { "week": "Wk 23", "visitors": 31200, "dau": 14800, "sessions": 3.2 },
-    { "week": "Wk 24", "visitors": 48200, "dau": 17100, "sessions": 3.4 },
-    { "week": "Wk 25", "visitors": 38600, "dau": 16200, "sessions": 3.2 },
-    { "week": "Wk 26", "visitors": 35100, "dau": 15800, "sessions": 3.1 },
-    { "week": "Wk 27", "visitors": 33400, "dau": 15400, "sessions": 3.2 },
-    { "week": "Wk 28", "visitors": 34900, "dau": 15900, "sessions": 3.3 },
-    { "week": "Wk 29", "visitors": 36200, "dau": 16100, "sessions": 3.2 },
-    { "week": "Wk 30", "visitors": 37800, "dau": 16500, "sessions": 3.2 },
-    { "week": "Wk 31", "visitors": 30900, "dau": 13500, "sessions": 2.9 },
-    { "week": "Wk 32", "visitors": 35600, "dau": 15200, "sessions": 3.1 },
-    { "week": "Wk 33", "visitors": 38100, "dau": 16300, "sessions": 3.2 },
-    { "week": "Wk 34", "visitors": 39700, "dau": 16800, "sessions": 3.3 },
-    { "week": "Wk 35", "visitors": 41200, "dau": 17200, "sessions": 3.3 },
-    { "week": "Wk 36", "visitors": 43500, "dau": 17600, "sessions": 3.4 },
-    { "week": "Wk 37", "visitors": 45800, "dau": 17900, "sessions": 3.4 },
-    { "week": "Wk 38", "visitors": 48200, "dau": 18340, "sessions": 3.5 }
+    {
+      "week": "Wk 22",
+      "visitors": 29800,
+      "dau": 14200,
+      "sessions": 3.1
+    },
+    {
+      "week": "Wk 23",
+      "visitors": 31200,
+      "dau": 14800,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 24",
+      "visitors": 48200,
+      "dau": 17100,
+      "sessions": 3.4
+    },
+    {
+      "week": "Wk 25",
+      "visitors": 38600,
+      "dau": 16200,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 26",
+      "visitors": 35100,
+      "dau": 15800,
+      "sessions": 3.1
+    },
+    {
+      "week": "Wk 27",
+      "visitors": 33400,
+      "dau": 15400,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 28",
+      "visitors": 34900,
+      "dau": 15900,
+      "sessions": 3.3
+    },
+    {
+      "week": "Wk 29",
+      "visitors": 36200,
+      "dau": 16100,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 30",
+      "visitors": 37800,
+      "dau": 16500,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 31",
+      "visitors": 30900,
+      "dau": 13500,
+      "sessions": 2.9
+    },
+    {
+      "week": "Wk 32",
+      "visitors": 35600,
+      "dau": 15200,
+      "sessions": 3.1
+    },
+    {
+      "week": "Wk 33",
+      "visitors": 38100,
+      "dau": 16300,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 34",
+      "visitors": 39700,
+      "dau": 16800,
+      "sessions": 3.3
+    },
+    {
+      "week": "Wk 35",
+      "visitors": 41200,
+      "dau": 17200,
+      "sessions": 3.3
+    },
+    {
+      "week": "Wk 36",
+      "visitors": 43500,
+      "dau": 17600,
+      "sessions": 3.4
+    },
+    {
+      "week": "Wk 37",
+      "visitors": 45800,
+      "dau": 17900,
+      "sessions": 3.4
+    },
+    {
+      "week": "Wk 38",
+      "visitors": 48200,
+      "dau": 18340,
+      "sessions": 3.5
+    }
   ],
   "analytics-cta": [
-    { "label": "Export as CSV", "description": "Download raw data for any selected date range" },
-    { "label": "Export as PDF", "description": "Share a formatted snapshot with stakeholders" },
-    { "label": "Save as Report", "description": "Pin this filter configuration for one-click access later" }
+    {
+      "label": "Export as CSV",
+      "description": "Download raw data for any selected date range"
+    },
+    {
+      "label": "Export as PDF",
+      "description": "Share a formatted snapshot with stakeholders"
+    },
+    {
+      "label": "Save as Report",
+      "description": "Pin this filter configuration for one-click access later"
+    }
   ],
   "reports-header": [
-    { "label": "All-time record count", "value": "48,291 events indexed" },
-    { "label": "Last synced", "value": "today at 09:14 AM UTC" },
-    { "label": "Filters active", "value": "Date range · Status · Channel" }
+    {
+      "label": "All-time record count",
+      "value": "48,291 events indexed"
+    },
+    {
+      "label": "Last synced",
+      "value": "today at 09:14 AM UTC"
+    },
+    {
+      "label": "Filters active",
+      "value": "Date range · Status · Channel"
+    }
   ],
   "reports-date-filter": [
-    { "label": "Last 7 days", "description": "Quick snapshot of the current week" },
-    { "label": "Last 30 days", "description": "Default monthly view aligned to billing cycles" },
-    { "label": "Last 90 days", "description": "Quarter-over-quarter comparison window" },
-    { "label": "Last 12 months", "description": "Full-year trend with month granularity" },
-    { "label": "Custom range", "description": "Pick any start and end date with the calendar picker" }
+    {
+      "label": "Last 7 days",
+      "description": "Quick snapshot of the current week"
+    },
+    {
+      "label": "Last 30 days",
+      "description": "Default monthly view aligned to billing cycles"
+    },
+    {
+      "label": "Last 90 days",
+      "description": "Quarter-over-quarter comparison window"
+    },
+    {
+      "label": "Last 12 months",
+      "description": "Full-year trend with month granularity"
+    },
+    {
+      "label": "Custom range",
+      "description": "Pick any start and end date with the calendar picker"
+    }
   ],
   "data-table": [
-    { "label": "Event ID", "description": "Unique identifier for each tracked action, sortable alphanumerically" },
-    { "label": "Timestamp", "description": "Precise date and time of the event, sortable newest-to-oldest by default" },
-    { "label": "User", "description": "Display name or anonymised ID of the actor who triggered the event" },
-    { "label": "Event Type", "description": "Categorised label such as Subscription Upgraded, Page Viewed, or Export Triggered" },
-    { "label": "Channel", "description": "Acquisition or interaction source: Organic, Paid, Referral, or Direct" },
-    { "label": "Revenue Impact", "description": "Monetary delta in USD attributed to this event; blank for non-revenue events" },
-    { "label": "Status", "description": "Color-coded badge: Completed (indigo), Pending (amber), Failed (red), Refunded (slate)" },
-    { "label": "Actions", "description": "Row-level controls: View Details, Copy ID, Flag for Review" },
-    { "label": "Pagination", "description": "Showing rows 1–25 of 48,291 · Page 1 of 1,932" },
-    { "label": "Row density toggle", "description": "Compact / Default / Relaxed" }
+    {
+      "label": "Event ID",
+      "description": "Unique identifier for each tracked action, sortable alphanumerically"
+    },
+    {
+      "label": "Timestamp",
+      "description": "Precise date and time of the event, sortable newest-to-oldest by default"
+    },
+    {
+      "label": "User",
+      "description": "Display name or anonymised ID of the actor who triggered the event"
+    },
+    {
+      "label": "Event Type",
+      "description": "Categorised label such as Subscription Upgraded, Page Viewed, or Export Triggered"
+    },
+    {
+      "label": "Channel",
+      "description": "Acquisition or interaction source: Organic, Paid, Referral, or Direct"
+    },
+    {
+      "label": "Revenue Impact",
+      "description": "Monetary delta in USD attributed to this event; blank for non-revenue events"
+    },
+    {
+      "label": "Status",
+      "description": "Color-coded badge: Completed (indigo), Pending (amber), Failed (red), Refunded (slate)"
+    },
+    {
+      "label": "Actions",
+      "description": "Row-level controls: View Details, Copy ID, Flag for Review"
+    },
+    {
+      "label": "Pagination",
+      "description": "Showing rows 1–25 of 48,291 · Page 1 of 1,932"
+    },
+    {
+      "label": "Row density toggle",
+      "description": "Compact / Default / Relaxed"
+    }
   ],
   "export-actions": [
-    { "label": "Export as CSV", "description": "Raw data for spreadsheets and BI tools, UTF-8 encoded" },
-    { "label": "Export as PDF", "description": "Formatted report with Rao branding, ready to share with stakeholders" },
-    { "label": "Copy shareable link", "description": "Generates a read-only URL locked to the current filter state" },
-    { "label": "Schedule weekly email", "description": "Delivered every Monday at 08:00 AM in your local timezone" },
-    { "label": "Print view", "description": "Optimised single-column layout for A4 and Letter paper sizes" }
+    {
+      "label": "Export as CSV",
+      "description": "Raw data for spreadsheets and BI tools, UTF-8 encoded"
+    },
+    {
+      "label": "Export as PDF",
+      "description": "Formatted report with Rao branding, ready to share with stakeholders"
+    },
+    {
+      "label": "Copy shareable link",
+      "description": "Generates a read-only URL locked to the current filter state"
+    },
+    {
+      "label": "Schedule weekly email",
+      "description": "Delivered every Monday at 08:00 AM in your local timezone"
+    },
+    {
+      "label": "Print view",
+      "description": "Optimised single-column layout for A4 and Letter paper sizes"
+    }
   ],
   "theme-settings": [
-    { "label": "Dark mode", "description": "Deep navy canvas with indigo and cyan chart accents; ideal for focused, low-light analysis sessions" },
-    { "label": "Light mode", "description": "Clean white surface with the same indigo primary palette; great for presentations and daytime use" },
-    { "label": "System default", "description": "Rao mirrors your operating system's current theme setting and switches automatically at sunrise/sunset" },
-    { "label": "Sidebar collapsed by default", "description": "Start every session with the sidebar minimised to maximise chart and table real estate" },
-    { "label": "Default date range", "description": "Set your preferred time window so every page opens pre-filtered to the period you care about most" }
+    {
+      "label": "Dark mode",
+      "description": "Deep navy canvas with indigo and cyan chart accents; ideal for focused, low-light analysis sessions"
+    },
+    {
+      "label": "Light mode",
+      "description": "Clean white surface with the same indigo primary palette; great for presentations and daytime use"
+    },
+    {
+      "label": "System default",
+      "description": "Rao mirrors your operating system's current theme setting and switches automatically at sunrise/sunset"
+    },
+    {
+      "label": "Sidebar collapsed by default",
+      "description": "Start every session with the sidebar minimised to maximise chart and table real estate"
+    },
+    {
+      "label": "Default date range",
+      "description": "Set your preferred time window so every page opens pre-filtered to the period you care about most"
+    }
   ],
   "notification-preferences": [
-    { "label": "Weekly performance digest", "description": "Receive a Monday morning email summarising revenue, active users, and churn delta for the prior week" },
-    { "label": "Anomaly alerts", "description": "Get notified instantly when any KPI deviates more than 15% from its 30-day rolling average" },
-    { "label": "Report ready notifications", "description": "In-app alert when a scheduled or exported report finishes generating and is ready to download" },
-    { "label": "Monthly benchmark report", "description": "A curated PDF comparing your key metrics against the previous month, delivered on the 1st" },
-    { "label": "Notification frequency", "description": "Choose between real-time, hourly digest, or daily digest to control how often alerts are batched and delivered" },
-    { "label": "Email notifications", "description": "Toggle email delivery on or off independently of in-app notifications; set a preferred delivery address below" }
+    {
+      "label": "Weekly performance digest",
+      "description": "Receive a Monday morning email summarising revenue, active users, and churn delta for the prior week"
+    },
+    {
+      "label": "Anomaly alerts",
+      "description": "Get notified instantly when any KPI deviates more than 15% from its 30-day rolling average"
+    },
+    {
+      "label": "Report ready notifications",
+      "description": "In-app alert when a scheduled or exported report finishes generating and is ready to download"
+    },
+    {
+      "label": "Monthly benchmark report",
+      "description": "A curated PDF comparing your key metrics against the previous month, delivered on the 1st"
+    },
+    {
+      "label": "Notification frequency",
+      "description": "Choose between real-time, hourly digest, or daily digest to control how often alerts are batched and delivered"
+    },
+    {
+      "label": "Email notifications",
+      "description": "Toggle email delivery on or off independently of in-app notifications; set a preferred delivery address below"
+    }
   ],
   "account-settings": [
-    { "label": "Display name", "description": "The name shown on exported reports, saved snapshots, and any shared dashboard links" },
-    { "label": "Email address", "description": "Used for notification digests, account recovery, and billing correspondence" },
-    { "label": "Avatar", "description": "Upload a profile photo (PNG or JPG, max 2 MB) that appears in the top header bar and on shared report covers" },
-    { "label": "Password & security", "description": "Update your password or enable two-factor authentication via authenticator app or SMS" },
-    { "label": "Connected integrations", "description": "Manage third-party connections such as Slack (for alert delivery) and Google Sheets (for live data export)" },
-    { "label": "Danger zone", "description": "Permanently delete your account and all associated saved reports; this action cannot be undone" }
+    {
+      "label": "Display name",
+      "description": "The name shown on exported reports, saved snapshots, and any shared dashboard links"
+    },
+    {
+      "label": "Email address",
+      "description": "Used for notification digests, account recovery, and billing correspondence"
+    },
+    {
+      "label": "Avatar",
+      "description": "Upload a profile photo (PNG or JPG, max 2 MB) that appears in the top header bar and on shared report covers"
+    },
+    {
+      "label": "Password & security",
+      "description": "Update your password or enable two-factor authentication via authenticator app or SMS"
+    },
+    {
+      "label": "Connected integrations",
+      "description": "Manage third-party connections such as Slack (for alert delivery) and Google Sheets (for live data export)"
+    },
+    {
+      "label": "Danger zone",
+      "description": "Permanently delete your account and all associated saved reports; this action cannot be undone"
+    }
   ],
   "settings-cta": {
     "heading": "Back to your dashboard",
@@ -216,5 +584,145 @@
     "analytics": "Analytics",
     "reports": "Reports",
     "settings": "Settings"
+  },
+  "analytics": {
+    "channels": {
+      "sub": "Track performance across all your marketing channels",
+      "title": "Channel Performance"
+    },
+    "heading": "Analytics",
+    "revenue": {
+      "sub": "Monitor revenue impact and ROI by source",
+      "title": "Revenue by Source"
+    },
+    "subhead": "Dive deep into your data with real-time insights"
+  },
+  "dashboardOverview": {
+    "heading": "Dashboard Overview",
+    "subheading": "Your metrics at a glance"
+  },
+  "events": {
+    "col": {
+      "channel": "Channel",
+      "event": "Event",
+      "impact": "Impact",
+      "status": "Status",
+      "time": "Time",
+      "user": "User"
+    },
+    "heading": "Recent Events",
+    "subhead": "Latest activity across your account",
+    "viewAll": "View All Events"
+  },
+  "features": {
+    "heading": "Powerful Features Built for Growth",
+    "subhead": "Everything you need to understand and optimize your business"
+  },
+  "hero": {
+    "badge": "Trusted by leading companies",
+    "chart": {
+      "badge": "Real-time data",
+      "title": "Live Performance Metrics"
+    },
+    "cta": {
+      "primary": "Get Started Free",
+      "secondary": "Watch Demo"
+    },
+    "headline1": "Analytics That Drive Results",
+    "headline2": "Make data-driven decisions in seconds, not weeks",
+    "live": "Live",
+    "subhead": "Retry gives you complete visibility into your business with intuitive dashboards and actionable insights"
+  },
+  "pricing": {
+    "heading": "Simple, Transparent Pricing",
+    "popular": "Most Popular",
+    "subhead": "Choose the plan that fits your needs"
+  },
+  "reports": {
+    "badge": "Reports",
+    "export": {
+      "csv": "Export as CSV",
+      "pdf": "Export as PDF",
+      "print": "Print"
+    },
+    "footerNote": "Data updated in real-time",
+    "heading": "Reports",
+    "pagination": {
+      "next": "Next",
+      "perPage": "Per page",
+      "prev": "Previous",
+      "showing": "Showing"
+    },
+    "search": {
+      "placeholder": "Search reports..."
+    },
+    "subheading": "Generate and manage your analytics reports",
+    "summary": {
+      "critical": "Critical",
+      "healthy": "Healthy",
+      "totalMetrics": "Total Metrics",
+      "warnings": "Warnings"
+    },
+    "table": {
+      "category": "Category",
+      "change": "Change",
+      "date": "Date",
+      "empty": "No reports yet",
+      "metric": "Metric",
+      "resultCount": "Results",
+      "status": "Status",
+      "value": "Value"
+    }
+  },
+  "settings": {
+    "account": {
+      "changeAvatar": "Change avatar",
+      "description": "Update your profile information and preferences.",
+      "emailLabel": "Email",
+      "lastUpdated": "Last updated",
+      "nameLabel": "Full name",
+      "roleLabel": "Role",
+      "save": "Save changes",
+      "saved": "Saved",
+      "saving": "Saving…",
+      "timezoneLabel": "Timezone",
+      "title": "Account"
+    },
+    "notifications": {
+      "description": "Manage how you receive updates and alerts.",
+      "emailAlerts": "Email alerts",
+      "emailAlertsDesc": "Get notified via email for important events.",
+      "group": {
+        "activity": "Activity",
+        "reports": "Reports"
+      },
+      "productUpdates": "Product updates",
+      "productUpdatesDesc": "Learn about new features and improvements.",
+      "push": "Push notifications",
+      "pushDesc": "Receive instant notifications on your device.",
+      "securityAlerts": "Security alerts",
+      "securityAlertsDesc": "Critical security and account notifications.",
+      "teamMentions": "Team mentions",
+      "teamMentionsDesc": "Be notified when someone mentions you.",
+      "title": "Notifications",
+      "weeklyDigest": "Weekly digest",
+      "weeklyDigestDesc": "Summary of activity from the past week."
+    },
+    "page": {
+      "subtitle": "Manage your account and preferences.",
+      "title": "Settings"
+    },
+    "theme": {
+      "dark": "Dark",
+      "description": "Choose your preferred appearance.",
+      "light": "Light",
+      "note": "Changes apply immediately.",
+      "system": "System",
+      "title": "Theme"
+    }
+  },
+  "testimonials": {
+    "heading": "Trusted by teams everywhere",
+    "subhead": "See what our users are saying."
   }
 }

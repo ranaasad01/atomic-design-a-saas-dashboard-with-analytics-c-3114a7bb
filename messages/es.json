@@ -1,220 +1,728 @@
 {
   "nav": {
-    "dashboard": "Panel",
-    "analytics": "Analíticas",
+    "dashboard": "Panel de Control",
+    "analytics": "Análisis",
     "reports": "Informes",
     "settings": "Configuración"
+  },
+  "cta": {
+    "heading": "¿Listo para transformar tu análisis?",
+    "primary": "Comenzar Prueba Gratuita",
+    "secondary": "Programar Demo",
+    "subhead": "Únete a miles de equipos que usan Retry para tomar decisiones más inteligentes"
+  },
+  "settings-cta": {
+    "heading": "Volver a tu panel de control",
+    "body": "Tu configuración se ha guardado. Vuelve a la Descripción General para ver tus preferencias actualizadas en acción.",
+    "cta": "Ir al Panel de Control"
+  },
+  "page-titles": {
+    "dashboard": "Descripción General del Panel",
+    "analytics": "Análisis",
+    "reports": "Informes",
+    "settings": "Configuración"
+  },
+  "analytics": {
+    "channels": {
+      "sub": "Monitorea el desempeño en todos tus canales de marketing",
+      "title": "Desempeño por Canal"
+    },
+    "heading": "Análisis",
+    "revenue": {
+      "sub": "Supervisa el impacto en ingresos y ROI por fuente",
+      "title": "Ingresos por Fuente"
+    },
+    "subhead": "Profundiza en tus datos con información en tiempo real"
+  },
+  "dashboardOverview": {
+    "heading": "Descripción General del Panel",
+    "subheading": "Tus métricas de un vistazo"
+  },
+  "events": {
+    "col": {
+      "channel": "Canal",
+      "event": "Evento",
+      "impact": "Impacto",
+      "status": "Estado",
+      "time": "Hora",
+      "user": "Usuario"
+    },
+    "heading": "Eventos Recientes",
+    "subhead": "Actividad más reciente en tu cuenta",
+    "viewAll": "Ver Todos los Eventos"
+  },
+  "features": {
+    "heading": "Características Poderosas Diseñadas para el Crecimiento",
+    "subhead": "Todo lo que necesitas para entender y optimizar tu negocio"
+  },
+  "hero": {
+    "badge": "Confiado por empresas líderes",
+    "chart": {
+      "badge": "Datos en tiempo real",
+      "title": "Métricas de Desempeño en Vivo"
+    },
+    "cta": {
+      "primary": "Comenzar Gratis",
+      "secondary": "Ver Demo"
+    },
+    "headline1": "Análisis que Generan Resultados",
+    "headline2": "Toma decisiones basadas en datos en segundos, no en semanas",
+    "live": "En vivo",
+    "subhead": "Retry te proporciona visibilidad completa de tu negocio con paneles intuitivos e información procesable"
+  },
+  "pricing": {
+    "heading": "Precios Simples y Transparentes",
+    "popular": "Más Popular",
+    "subhead": "Elige el plan que se adapte a tus necesidades"
+  },
+  "reports": {
+    "badge": "Reportes",
+    "export": {
+      "csv": "Exportar como CSV",
+      "pdf": "Exportar como PDF",
+      "print": "Imprimir"
+    },
+    "footerNote": "Datos actualizados en tiempo real",
+    "heading": "Reportes",
+    "pagination": {
+      "next": "Siguiente",
+      "perPage": "Por página",
+      "prev": "Anterior",
+      "showing": "Mostrando"
+    },
+    "search": {
+      "placeholder": "Buscar reportes..."
+    },
+    "subheading": "Genera y administra tus reportes de análisis",
+    "summary": {
+      "critical": "Crítico",
+      "healthy": "Saludable",
+      "totalMetrics": "Métricas Totales",
+      "warnings": "Advertencias"
+    },
+    "table": {
+      "category": "Categoría",
+      "change": "Cambio",
+      "date": "Fecha",
+      "empty": "Sin reportes aún",
+      "metric": "Métrica",
+      "resultCount": "Resultados",
+      "status": "Estado",
+      "value": "Valor"
+    }
+  },
+  "settings": {
+    "account": {
+      "changeAvatar": "Cambiar avatar",
+      "description": "Actualiza tu información de perfil y preferencias.",
+      "emailLabel": "Correo electrónico",
+      "lastUpdated": "Última actualización",
+      "nameLabel": "Nombre completo",
+      "roleLabel": "Rol",
+      "save": "Guardar cambios",
+      "saved": "Guardado",
+      "saving": "Guardando…",
+      "timezoneLabel": "Zona horaria",
+      "title": "Cuenta"
+    },
+    "notifications": {
+      "description": "Gestiona cómo recibes actualizaciones y alertas.",
+      "emailAlerts": "Alertas por correo",
+      "emailAlertsDesc": "Recibe notificaciones por correo para eventos importantes.",
+      "group": {
+        "activity": "Actividad",
+        "reports": "Reportes"
+      },
+      "productUpdates": "Actualizaciones del producto",
+      "productUpdatesDesc": "Conoce sobre nuevas funciones y mejoras.",
+      "push": "Notificaciones push",
+      "pushDesc": "Recibe notificaciones instantáneas en tu dispositivo.",
+      "securityAlerts": "Alertas de seguridad",
+      "securityAlertsDesc": "Notificaciones críticas de seguridad y cuenta.",
+      "teamMentions": "Menciones del equipo",
+      "teamMentionsDesc": "Recibe notificaciones cuando alguien te menciona.",
+      "title": "Notificaciones",
+      "weeklyDigest": "Resumen semanal",
+      "weeklyDigestDesc": "Resumen de la actividad de la semana pasada."
+    },
+    "page": {
+      "subtitle": "Gestiona tu cuenta y preferencias.",
+      "title": "Configuración"
+    },
+    "theme": {
+      "dark": "Oscuro",
+      "description": "Elige tu apariencia preferida.",
+      "light": "Claro",
+      "note": "Los cambios se aplican inmediatamente.",
+      "system": "Sistema",
+      "title": "Tema"
+    }
+  },
+  "testimonials": {
+    "heading": "Confiado por equipos en todas partes",
+    "subhead": "Mira lo que dicen nuestros usuarios."
   },
   "header": [
     {
-      "label": "Barra de búsqueda",
-      "description": "Encuentra cualquier informe, métrica o rango de fechas al instante"
+      "label": "Search bar",
+      "description": "Find any report, metric, or date range instantly"
     },
     {
-      "label": "Campana de notificaciones",
-      "description": "4 alertas sin leer: pico de ingresos el 12 de nov, umbral de abandono cruzado, nuevo hito de usuarios, resumen semanal listo"
+      "label": "Notifications bell",
+      "description": "4 unread alerts: revenue spike on Nov 12, churn threshold crossed, new user milestone reached, weekly digest ready"
     },
     {
-      "label": "Avatar de usuario",
-      "description": "Alex Rivera, alex@raoapp.io, rol Administrador"
+      "label": "User avatar",
+      "description": "Alex Rivera, alex@raoapp.io, Admin role"
     },
     {
-      "label": "Modo oscuro / claro",
-      "description": "Persiste entre sesiones mediante user_settings"
+      "label": "Dark / Light mode toggle",
+      "description": "Persists across sessions via user_settings"
     }
   ],
   "quick-stats": [
-    { "label": "Usuarios activos ahora", "value": "1.284 en línea" },
-    { "label": "Solicitudes hoy", "value": "847K llamadas API" },
-    { "label": "Disponibilidad", "value": "99,97% en los últimos 30 días" },
-    { "label": "Tiempo de respuesta promedio", "value": "142 ms" },
-    { "label": "Tickets de soporte abiertos", "value": "7 sin resolver" },
-    { "label": "Nuevos registros hoy", "value": "63 cuentas" }
+    {
+      "label": "Active Users Right Now",
+      "value": "1,284 online"
+    },
+    {
+      "label": "Requests Today",
+      "value": "847K API calls"
+    },
+    {
+      "label": "Uptime",
+      "value": "99.97% over last 30 days"
+    },
+    {
+      "label": "Avg. Response Time",
+      "value": "142 ms"
+    },
+    {
+      "label": "Open Support Tickets",
+      "value": "7 unresolved"
+    },
+    {
+      "label": "New Sign-ups Today",
+      "value": "63 accounts"
+    }
   ],
   "kpi-cards": [
     {
-      "label": "Ingresos Recurrentes Mensuales",
-      "value": "$284.500",
-      "trend": "12,4% vs mes anterior",
+      "label": "Monthly Recurring Revenue",
+      "value": "$284,500",
+      "trend": "12.4% vs last month",
       "trendDirection": "up",
-      "status": "Saludable"
+      "status": "Healthy"
     },
     {
-      "label": "Usuarios Activos Totales",
-      "value": "18.340",
-      "trend": "8,7% vs mes anterior",
+      "label": "Total Active Users",
+      "value": "18,340",
+      "trend": "8.7% vs last month",
       "trendDirection": "up",
-      "status": "Creciendo"
+      "status": "Growing"
     },
     {
-      "label": "Tasa de Abandono",
-      "value": "2,1%",
-      "trend": "0,4 pp vs mes anterior",
+      "label": "Churn Rate",
+      "value": "2.1%",
+      "trend": "0.4 pp vs last month",
       "trendDirection": "down",
-      "status": "Mejorando"
+      "status": "Improving"
     },
     {
-      "label": "Crecimiento Mensual",
-      "value": "12,4%",
-      "trend": "3,1 pp vs mes anterior",
+      "label": "Month-over-Month Growth",
+      "value": "12.4%",
+      "trend": "3.1 pp vs last month",
       "trendDirection": "up",
-      "status": "En camino"
+      "status": "On Track"
     }
   ],
   "revenue-chart": [
-    { "month": "Ene", "revenue": 198200 },
-    { "month": "Feb", "revenue": 204750 },
-    { "month": "Mar", "revenue": 211300 },
-    { "month": "Abr", "revenue": 219800 },
-    { "month": "May", "revenue": 228400 },
-    { "month": "Jun", "revenue": 235100 },
-    { "month": "Jul", "revenue": 241600 },
-    { "month": "Ago", "revenue": 248900 },
-    { "month": "Sep", "revenue": 255300 },
-    { "month": "Oct", "revenue": 263700 },
-    { "month": "Nov", "revenue": 274100 },
-    { "month": "Dic", "revenue": 284500 }
+    {
+      "month": "Jan",
+      "revenue": 198200
+    },
+    {
+      "month": "Feb",
+      "revenue": 204750
+    },
+    {
+      "month": "Mar",
+      "revenue": 211300
+    },
+    {
+      "month": "Apr",
+      "revenue": 219800
+    },
+    {
+      "month": "May",
+      "revenue": 228400
+    },
+    {
+      "month": "Jun",
+      "revenue": 235100
+    },
+    {
+      "month": "Jul",
+      "revenue": 241600
+    },
+    {
+      "month": "Aug",
+      "revenue": 248900
+    },
+    {
+      "month": "Sep",
+      "revenue": 255300
+    },
+    {
+      "month": "Oct",
+      "revenue": 263700
+    },
+    {
+      "month": "Nov",
+      "revenue": 274100
+    },
+    {
+      "month": "Dec",
+      "revenue": 284500
+    }
   ],
   "activity-area-chart": [
-    { "week": "Semana 1", "dau": 14820, "note": "Período base" },
-    { "week": "Semana 2", "dau": 15640, "note": "+5,5% — campaña de email lanzada el 8 de nov" },
-    { "week": "Semana 3", "dau": 17210, "note": "+10,0% — lanzamiento de función v2.4 el 15 de nov" },
-    { "week": "Semana 4", "dau": 18340, "note": "+6,6% — participación sostenida post-lanzamiento" }
-  ],
-  "cta": [
     {
-      "label": "Abrir Analíticas",
-      "description": "Explora gráficos de barras, desgloses de donut y tendencias filtradas por fecha"
+      "week": "Week 1",
+      "dau": 14820,
+      "note": "Baseline period"
     },
     {
-      "label": "Ver Informes",
-      "description": "Ordena, filtra y exporta tu registro completo de transacciones y eventos"
+      "week": "Week 2",
+      "dau": 15640,
+      "note": "+5.5% — email campaign launched Nov 8"
     },
     {
-      "label": "Ajustar Configuración",
-      "description": "Establece tu rango de fechas predeterminado, activa el modo oscuro y gestiona notificaciones"
+      "week": "Week 3",
+      "dau": 17210,
+      "note": "+10.0% — v2.4 feature release Nov 15"
+    },
+    {
+      "week": "Week 4",
+      "dau": 18340,
+      "note": "+6.6% — sustained post-release engagement"
     }
   ],
   "analytics-header": [
-    { "label": "Última actualización", "value": "ahora mismo" },
-    { "label": "Comparando con", "value": "período anterior" },
-    { "label": "Alcance", "value": "Todos los espacios de trabajo incluidos" }
+    {
+      "label": "Last updated",
+      "value": "just now"
+    },
+    {
+      "label": "Comparing to",
+      "value": "previous period"
+    },
+    {
+      "label": "Scope",
+      "value": "All workspaces included"
+    }
   ],
   "date-filter": [
-    { "label": "Últimos 7 días", "description": "Verificación rápida de actividad reciente" },
-    { "label": "Últimos 30 días", "description": "Ventana de rendimiento mensual estándar" },
-    { "label": "Últimos 90 días", "description": "Análisis de tendencias trimestrales" },
-    { "label": "Últimos 12 meses", "description": "Vista longitudinal de todo el año" },
-    { "label": "Rango personalizado", "description": "Elige cualquier fecha de inicio y fin con el selector de calendario" }
+    {
+      "label": "Last 7 days",
+      "description": "Quick pulse check on recent activity"
+    },
+    {
+      "label": "Last 30 days",
+      "description": "Standard monthly performance window"
+    },
+    {
+      "label": "Last 90 days",
+      "description": "Quarterly trend analysis"
+    },
+    {
+      "label": "Last 12 months",
+      "description": "Full-year longitudinal view"
+    },
+    {
+      "label": "Custom range",
+      "description": "Pick any start and end date with the calendar picker"
+    }
   ],
   "monthly-bar-chart": [
-    { "month": "Ene", "thisYear": 84200, "lastYear": 61500 },
-    { "month": "Feb", "thisYear": 79600, "lastYear": 58900 },
-    { "month": "Mar", "thisYear": 93100, "lastYear": 70200 },
-    { "month": "Abr", "thisYear": 101400, "lastYear": 74800 },
-    { "month": "May", "thisYear": 112700, "lastYear": 80300 },
-    { "month": "Jun", "thisYear": 108900, "lastYear": 83600 },
-    { "month": "Jul", "thisYear": 97300, "lastYear": 76100 },
-    { "month": "Ago", "thisYear": 119500, "lastYear": 88400 },
-    { "month": "Sep", "thisYear": 124800, "lastYear": 91200 },
-    { "month": "Oct", "thisYear": 131600, "lastYear": 96700 },
-    { "month": "Nov", "thisYear": 143200, "lastYear": 104500 },
-    { "month": "Dic", "thisYear": 158900, "lastYear": 112300 }
+    {
+      "month": "Jan",
+      "thisYear": 84200,
+      "lastYear": 61500
+    },
+    {
+      "month": "Feb",
+      "thisYear": 79600,
+      "lastYear": 58900
+    },
+    {
+      "month": "Mar",
+      "thisYear": 93100,
+      "lastYear": 70200
+    },
+    {
+      "month": "Apr",
+      "thisYear": 101400,
+      "lastYear": 74800
+    },
+    {
+      "month": "May",
+      "thisYear": 112700,
+      "lastYear": 80300
+    },
+    {
+      "month": "Jun",
+      "thisYear": 108900,
+      "lastYear": 83600
+    },
+    {
+      "month": "Jul",
+      "thisYear": 97300,
+      "lastYear": 76100
+    },
+    {
+      "month": "Aug",
+      "thisYear": 119500,
+      "lastYear": 88400
+    },
+    {
+      "month": "Sep",
+      "thisYear": 124800,
+      "lastYear": 91200
+    },
+    {
+      "month": "Oct",
+      "thisYear": 131600,
+      "lastYear": 96700
+    },
+    {
+      "month": "Nov",
+      "thisYear": 143200,
+      "lastYear": 104500
+    },
+    {
+      "month": "Dec",
+      "thisYear": 158900,
+      "lastYear": 112300
+    }
   ],
   "category-donut-chart": [
-    { "name": "Suscripciones Pro", "value": 542600, "percentage": 42 },
-    { "name": "Licencias Enterprise", "value": 361700, "percentage": 28 },
-    { "name": "Módulos Adicionales", "value": 180900, "percentage": 14 },
-    { "name": "Servicios Profesionales", "value": 129200, "percentage": 10 },
-    { "name": "Integraciones de Marketplace", "value": 77500, "percentage": 6 }
+    {
+      "name": "Pro Subscriptions",
+      "value": 542600,
+      "percentage": 42
+    },
+    {
+      "name": "Enterprise Licenses",
+      "value": 361700,
+      "percentage": 28
+    },
+    {
+      "name": "Add-on Modules",
+      "value": 180900,
+      "percentage": 14
+    },
+    {
+      "name": "Professional Services",
+      "value": 129200,
+      "percentage": 10
+    },
+    {
+      "name": "Marketplace Integrations",
+      "value": 77500,
+      "percentage": 6
+    }
   ],
   "traffic-line-chart": [
-    { "week": "Sem 22", "visitors": 29800, "dau": 14200, "sessions": 3.1 },
-    { "week": "Sem 23", "visitors": 31200, "dau": 14800, "sessions": 3.2 },
-    { "week": "Sem 24", "visitors": 48200, "dau": 17100, "sessions": 3.4 },
-    { "week": "Sem 25", "visitors": 38600, "dau": 16200, "sessions": 3.2 },
-    { "week": "Sem 26", "visitors": 35100, "dau": 15800, "sessions": 3.1 },
-    { "week": "Sem 27", "visitors": 33400, "dau": 15400, "sessions": 3.2 },
-    { "week": "Sem 28", "visitors": 34900, "dau": 15900, "sessions": 3.3 },
-    { "week": "Sem 29", "visitors": 36200, "dau": 16100, "sessions": 3.2 },
-    { "week": "Sem 30", "visitors": 37800, "dau": 16500, "sessions": 3.2 },
-    { "week": "Sem 31", "visitors": 30900, "dau": 13500, "sessions": 2.9 },
-    { "week": "Sem 32", "visitors": 35600, "dau": 15200, "sessions": 3.1 },
-    { "week": "Sem 33", "visitors": 38100, "dau": 16300, "sessions": 3.2 },
-    { "week": "Sem 34", "visitors": 39700, "dau": 16800, "sessions": 3.3 },
-    { "week": "Sem 35", "visitors": 41200, "dau": 17200, "sessions": 3.3 },
-    { "week": "Sem 36", "visitors": 43500, "dau": 17600, "sessions": 3.4 },
-    { "week": "Sem 37", "visitors": 45800, "dau": 17900, "sessions": 3.4 },
-    { "week": "Sem 38", "visitors": 48200, "dau": 18340, "sessions": 3.5 }
+    {
+      "week": "Wk 22",
+      "visitors": 29800,
+      "dau": 14200,
+      "sessions": 3.1
+    },
+    {
+      "week": "Wk 23",
+      "visitors": 31200,
+      "dau": 14800,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 24",
+      "visitors": 48200,
+      "dau": 17100,
+      "sessions": 3.4
+    },
+    {
+      "week": "Wk 25",
+      "visitors": 38600,
+      "dau": 16200,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 26",
+      "visitors": 35100,
+      "dau": 15800,
+      "sessions": 3.1
+    },
+    {
+      "week": "Wk 27",
+      "visitors": 33400,
+      "dau": 15400,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 28",
+      "visitors": 34900,
+      "dau": 15900,
+      "sessions": 3.3
+    },
+    {
+      "week": "Wk 29",
+      "visitors": 36200,
+      "dau": 16100,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 30",
+      "visitors": 37800,
+      "dau": 16500,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 31",
+      "visitors": 30900,
+      "dau": 13500,
+      "sessions": 2.9
+    },
+    {
+      "week": "Wk 32",
+      "visitors": 35600,
+      "dau": 15200,
+      "sessions": 3.1
+    },
+    {
+      "week": "Wk 33",
+      "visitors": 38100,
+      "dau": 16300,
+      "sessions": 3.2
+    },
+    {
+      "week": "Wk 34",
+      "visitors": 39700,
+      "dau": 16800,
+      "sessions": 3.3
+    },
+    {
+      "week": "Wk 35",
+      "visitors": 41200,
+      "dau": 17200,
+      "sessions": 3.3
+    },
+    {
+      "week": "Wk 36",
+      "visitors": 43500,
+      "dau": 17600,
+      "sessions": 3.4
+    },
+    {
+      "week": "Wk 37",
+      "visitors": 45800,
+      "dau": 17900,
+      "sessions": 3.4
+    },
+    {
+      "week": "Wk 38",
+      "visitors": 48200,
+      "dau": 18340,
+      "sessions": 3.5
+    }
   ],
   "analytics-cta": [
-    { "label": "Exportar como CSV", "description": "Descarga datos sin procesar para cualquier rango de fechas seleccionado" },
-    { "label": "Exportar como PDF", "description": "Comparte una instantánea formateada con las partes interesadas" },
-    { "label": "Guardar como Informe", "description": "Fija esta configuración de filtro para acceso con un clic más tarde" }
+    {
+      "label": "Export as CSV",
+      "description": "Download raw data for any selected date range"
+    },
+    {
+      "label": "Export as PDF",
+      "description": "Share a formatted snapshot with stakeholders"
+    },
+    {
+      "label": "Save as Report",
+      "description": "Pin this filter configuration for one-click access later"
+    }
   ],
   "reports-header": [
-    { "label": "Recuento total de registros", "value": "48.291 eventos indexados" },
-    { "label": "Última sincronización", "value": "hoy a las 09:14 AM UTC" },
-    { "label": "Filtros activos", "value": "Rango de fechas · Estado · Canal" }
+    {
+      "label": "All-time record count",
+      "value": "48,291 events indexed"
+    },
+    {
+      "label": "Last synced",
+      "value": "today at 09:14 AM UTC"
+    },
+    {
+      "label": "Filters active",
+      "value": "Date range · Status · Channel"
+    }
   ],
   "reports-date-filter": [
-    { "label": "Últimos 7 días", "description": "Instantánea rápida de la semana actual" },
-    { "label": "Últimos 30 días", "description": "Vista mensual predeterminada alineada con ciclos de facturación" },
-    { "label": "Últimos 90 días", "description": "Ventana de comparación trimestral" },
-    { "label": "Últimos 12 meses", "description": "Tendencia anual completa con granularidad mensual" },
-    { "label": "Rango personalizado", "description": "Elige cualquier fecha de inicio y fin con el selector de calendario" }
+    {
+      "label": "Last 7 days",
+      "description": "Quick snapshot of the current week"
+    },
+    {
+      "label": "Last 30 days",
+      "description": "Default monthly view aligned to billing cycles"
+    },
+    {
+      "label": "Last 90 days",
+      "description": "Quarter-over-quarter comparison window"
+    },
+    {
+      "label": "Last 12 months",
+      "description": "Full-year trend with month granularity"
+    },
+    {
+      "label": "Custom range",
+      "description": "Pick any start and end date with the calendar picker"
+    }
   ],
   "data-table": [
-    { "label": "ID de Evento", "description": "Identificador único para cada acción rastreada, ordenable alfanuméricamente" },
-    { "label": "Marca de tiempo", "description": "Fecha y hora precisas del evento, ordenable de más reciente a más antiguo por defecto" },
-    { "label": "Usuario", "description": "Nombre de visualización o ID anonimizado del actor que desencadenó el evento" },
-    { "label": "Tipo de Evento", "description": "Etiqueta categorizada como Suscripción Actualizada, Página Vista o Exportación Activada" },
-    { "label": "Canal", "description": "Fuente de adquisición o interacción: Orgánico, Pagado, Referido o Directo" },
-    { "label": "Impacto en Ingresos", "description": "Delta monetario en USD atribuido a este evento; en blanco para eventos sin ingresos" },
-    { "label": "Estado", "description": "Insignia con código de color: Completado (índigo), Pendiente (ámbar), Fallido (rojo), Reembolsado (pizarra)" },
-    { "label": "Acciones", "description": "Controles a nivel de fila: Ver Detalles, Copiar ID, Marcar para Revisión" },
-    { "label": "Paginación", "description": "Mostrando filas 1–25 de 48.291 · Página 1 de 1.932" },
-    { "label": "Alternador de densidad de filas", "description": "Compacto / Predeterminado / Relajado" }
+    {
+      "label": "Event ID",
+      "description": "Unique identifier for each tracked action, sortable alphanumerically"
+    },
+    {
+      "label": "Timestamp",
+      "description": "Precise date and time of the event, sortable newest-to-oldest by default"
+    },
+    {
+      "label": "User",
+      "description": "Display name or anonymised ID of the actor who triggered the event"
+    },
+    {
+      "label": "Event Type",
+      "description": "Categorised label such as Subscription Upgraded, Page Viewed, or Export Triggered"
+    },
+    {
+      "label": "Channel",
+      "description": "Acquisition or interaction source: Organic, Paid, Referral, or Direct"
+    },
+    {
+      "label": "Revenue Impact",
+      "description": "Monetary delta in USD attributed to this event; blank for non-revenue events"
+    },
+    {
+      "label": "Status",
+      "description": "Color-coded badge: Completed (indigo), Pending (amber), Failed (red), Refunded (slate)"
+    },
+    {
+      "label": "Actions",
+      "description": "Row-level controls: View Details, Copy ID, Flag for Review"
+    },
+    {
+      "label": "Pagination",
+      "description": "Showing rows 1–25 of 48,291 · Page 1 of 1,932"
+    },
+    {
+      "label": "Row density toggle",
+      "description": "Compact / Default / Relaxed"
+    }
   ],
   "export-actions": [
-    { "label": "Exportar como CSV", "description": "Datos sin procesar para hojas de cálculo y herramientas de BI, codificado en UTF-8" },
-    { "label": "Exportar como PDF", "description": "Informe formateado con la marca Rao, listo para compartir con las partes interesadas" },
-    { "label": "Copiar enlace compartible", "description": "Genera una URL de solo lectura bloqueada al estado de filtro actual" },
-    { "label": "Programar email semanal", "description": "Entregado cada lunes a las 08:00 AM en tu zona horaria local" },
-    { "label": "Vista de impresión", "description": "Diseño de columna única optimizado para tamaños de papel A4 y Carta" }
+    {
+      "label": "Export as CSV",
+      "description": "Raw data for spreadsheets and BI tools, UTF-8 encoded"
+    },
+    {
+      "label": "Export as PDF",
+      "description": "Formatted report with Rao branding, ready to share with stakeholders"
+    },
+    {
+      "label": "Copy shareable link",
+      "description": "Generates a read-only URL locked to the current filter state"
+    },
+    {
+      "label": "Schedule weekly email",
+      "description": "Delivered every Monday at 08:00 AM in your local timezone"
+    },
+    {
+      "label": "Print view",
+      "description": "Optimised single-column layout for A4 and Letter paper sizes"
+    }
   ],
   "theme-settings": [
-    { "label": "Modo oscuro", "description": "Lienzo azul marino profundo con acentos de gráficos índigo y cian; ideal para sesiones de análisis enfocadas con poca luz" },
-    { "label": "Modo claro", "description": "Superficie blanca limpia con la misma paleta primaria índigo; ideal para presentaciones y uso diurno" },
-    { "label": "Predeterminado del sistema", "description": "Rao refleja la configuración de tema actual de tu sistema operativo y cambia automáticamente al amanecer/atardecer" },
-    { "label": "Barra lateral colapsada por defecto", "description": "Comienza cada sesión con la barra lateral minimizada para maximizar el espacio de gráficos y tablas" },
-    { "label": "Rango de fechas predeterminado", "description": "Establece tu ventana de tiempo preferida para que cada página se abra pre-filtrada al período que más te importa" }
+    {
+      "label": "Dark mode",
+      "description": "Deep navy canvas with indigo and cyan chart accents; ideal for focused, low-light analysis sessions"
+    },
+    {
+      "label": "Light mode",
+      "description": "Clean white surface with the same indigo primary palette; great for presentations and daytime use"
+    },
+    {
+      "label": "System default",
+      "description": "Rao mirrors your operating system's current theme setting and switches automatically at sunrise/sunset"
+    },
+    {
+      "label": "Sidebar collapsed by default",
+      "description": "Start every session with the sidebar minimised to maximise chart and table real estate"
+    },
+    {
+      "label": "Default date range",
+      "description": "Set your preferred time window so every page opens pre-filtered to the period you care about most"
+    }
   ],
   "notification-preferences": [
-    { "label": "Resumen semanal de rendimiento", "description": "Recibe un email el lunes por la mañana resumiendo ingresos, usuarios activos y delta de abandono de la semana anterior" },
-    { "label": "Alertas de anomalías", "description": "Recibe notificación instantánea cuando cualquier KPI se desvíe más del 15% de su promedio móvil de 30 días" },
-    { "label": "Notificaciones de informe listo", "description": "Alerta en la app cuando un informe programado o exportado termina de generarse y está listo para descargar" },
-    { "label": "Informe de referencia mensual", "description": "Un PDF curado que compara tus métricas clave con el mes anterior, entregado el día 1" },
-    { "label": "Frecuencia de notificaciones", "description": "Elige entre tiempo real, resumen por hora o resumen diario para controlar la frecuencia de las alertas" },
-    { "label": "Notificaciones por email", "description": "Activa o desactiva la entrega por email independientemente de las notificaciones en la app; establece una dirección de entrega preferida abajo" }
+    {
+      "label": "Weekly performance digest",
+      "description": "Receive a Monday morning email summarising revenue, active users, and churn delta for the prior week"
+    },
+    {
+      "label": "Anomaly alerts",
+      "description": "Get notified instantly when any KPI deviates more than 15% from its 30-day rolling average"
+    },
+    {
+      "label": "Report ready notifications",
+      "description": "In-app alert when a scheduled or exported report finishes generating and is ready to download"
+    },
+    {
+      "label": "Monthly benchmark report",
+      "description": "A curated PDF comparing your key metrics against the previous month, delivered on the 1st"
+    },
+    {
+      "label": "Notification frequency",
+      "description": "Choose between real-time, hourly digest, or daily digest to control how often alerts are batched and delivered"
+    },
+    {
+      "label": "Email notifications",
+      "description": "Toggle email delivery on or off independently of in-app notifications; set a preferred delivery address below"
+    }
   ],
   "account-settings": [
-    { "label": "Nombre de visualización", "description": "El nombre que aparece en informes exportados, instantáneas guardadas y cualquier enlace de panel compartido" },
-    { "label": "Dirección de email", "description": "Usada para resúmenes de notificaciones, recuperación de cuenta y correspondencia de facturación" },
-    { "label": "Avatar", "description": "Sube una foto de perfil (PNG o JPG, máx. 2 MB) que aparece en la barra de encabezado superior y en las portadas de informes compartidos" },
-    { "label": "Contraseña y seguridad", "description": "Actualiza tu contraseña o habilita la autenticación de dos factores mediante app de autenticación o SMS" },
-    { "label": "Integraciones conectadas", "description": "Gestiona conexiones de terceros como Slack (para entrega de alertas) y Google Sheets (para exportación de datos en vivo)" },
-    { "label": "Zona de peligro", "description": "Elimina permanentemente tu cuenta y todos los informes guardados asociados; esta acción no se puede deshacer" }
-  ],
-  "settings-cta": {
-    "heading": "Volver a tu panel",
-    "body": "Tu configuración está guardada. Vuelve al Panel para ver tus preferencias actualizadas en acción.",
-    "cta": "Ir al Panel"
-  },
-  "page-titles": {
-    "dashboard": "Vista General del Panel",
-    "analytics": "Analíticas",
-    "reports": "Informes",
-    "settings": "Configuración"
-  }
+    {
+      "label": "Display name",
+      "description": "The name shown on exported reports, saved snapshots, and any shared dashboard links"
+    },
+    {
+      "label": "Email address",
+      "description": "Used for notification digests, account recovery, and billing correspondence"
+    },
+    {
+      "label": "Avatar",
+      "description": "Upload a profile photo (PNG or JPG, max 2 MB) that appears in the top header bar and on shared report covers"
+    },
+    {
+      "label": "Password & security",
+      "description": "Update your password or enable two-factor authentication via authenticator app or SMS"
+    },
+    {
+      "label": "Connected integrations",
+      "description": "Manage third-party connections such as Slack (for alert delivery) and Google Sheets (for live data export)"
+    },
+    {
+      "label": "Danger zone",
+      "description": "Permanently delete your account and all associated saved reports; this action cannot be undone"
+    }
+  ]
 }
